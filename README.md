@@ -70,7 +70,7 @@ The ODinW-13 benchmark in this repository contains the following task subsets: A
 The provided experiment script uses the Grounding DINO checkpoint, the ODinW-13 configuration, and a shuffled task order:
 
 ```bash
-bash train_ours.sh
+bash train_tada.sh
 ```
 
 Its equivalent command is:
@@ -80,7 +80,7 @@ python -u main.py \
   --config-file test/test_odinw13 \
   --model-config-file groundingdino/config/GroundingDINO_SwinT_OGC_dt_tada.py \
   --model-checkpoint-path weights/groundingdino_swint_ogc.pth \
-  --output-dir output/ours_seed0_random30 \
+  --output-dir output/tada \
   --seed 0 \
   --num-gpus 1
 ```
@@ -94,7 +94,7 @@ python -u main.py \
   --config-file test/test_odinw13 \
   --model-config-file groundingdino/config/GroundingDINO_SwinT_OGC_dt_tada.py \
   --model-checkpoint-path weights/groundingdino_swint_ogc.pth \
-  --output-dir output/ours_seed0_random30 \
+  --output-dir output/tada \
   --num-gpus 1 \
   --eval-only
 ```
