@@ -2,6 +2,8 @@
 
 ## Task-Agnostic Incremental Vision-Language Object Detection via Prompt Augmentation and Distribution-Aware Fusion
 
+[arXiv:2611.28291](https://arxiv.org/abs/2611.28291)
+
 This repository contains the PyTorch implementation of [TADA](https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/4881.pdf), a framework for task-agnostic incremental vision-language object detection (TA-IVLOD).
 
 Incremental vision-language object detection adapts a pretrained open-vocabulary detector to a sequence of visual tasks without forgetting previously learned concepts. In the task-agnostic setting, task identities are unavailable at inference time, so the detector must recognize classes from all learned tasks simultaneously.
